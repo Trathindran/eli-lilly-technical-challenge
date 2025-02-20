@@ -30,3 +30,36 @@ body {
 }
 
 /* ---- Your custom styles below ---- */
+
+/*This is the styling for the table of medicine*/
+.medicine-table{
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;;
+}
+
+.medicine-table th,
+.medicine-table td{
+    padding: 12px 15px;
+}
+
+.medicine-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+/*This is the css styling for the forms that the user can fill out*/
+form{
+    position: relative;
+    margin: 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    background: #fff;
+
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
